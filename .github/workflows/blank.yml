@@ -12,4 +12,4 @@ jobs:
       - name: Ping Render App
         run: |
           echo "Pinging Render app..."
-          curl -s -o /dev/null -w "%{http_code}" https://quizv2-wq0n.onrender.com/
+          curl -s -o /dev/null -w "%{http_code}" https://vehiclev2.onrender.com/#//
